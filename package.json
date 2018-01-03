@@ -1,0 +1,25 @@
+{
+  "name": "sql-exercises",
+  "version": "0.9.0",
+  "description": "An automated set of exercises for MySQL!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --colors **/*.spec.js "
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-as-promised": "^6.0.0",
+    "chai-sorted": "^0.1.0",
+    "eslint": "^4.1.1",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-mocha": "^4.11.0",
+    "mocha": "^3.4.2",
+    "moment": "^2.18.1",
+    "mysql": "^2.13.0"
+  },
+  "dependencies": {
+    "async": "^2.5.0"
+  }
+}
